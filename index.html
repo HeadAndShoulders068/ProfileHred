@@ -1,27 +1,158 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Adichat Leecharoenphol</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ทำภาพเป็นวงกลม</title>
+
 </head>
+
+<style>
+	.container {
+		width: 60%;
+		margin: auto;
+		background: white;
+		padding: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		margin-top: 50px;
+
+	}
+
+	/* ปรับรูปภาพ */
+	.profile-pic {
+		width: 300px;
+		height: auto;
+		border-radius: 50%;
+		/* ทำให้รูปภาพเป็นวงกลม */
+		margin: auto;
+		display: block;
+		border: 3px solid #000000;
+		/* เพิ่มเส้นขอบสีเทาอ่อน */
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		/* เพิ่มเงาเล็กน้อย */
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-family: "Itim";
+		font-weight: 500;
+		text-align: center;
+	}
+
+	p {
+		font-family: "Itim";
+		font-weight: 400;
+		/* Light */
+		text-align: center;
+		color: #000000;
+	}
+
+	.section {
+		margin-bottom: 20px;
+	}
+
+	.section h3 {
+		border-bottom: 2px solid #ddd;
+		padding-bottom: 5px;
+	}
+
+	.section ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.section ul li {
+		font-family: "Itim";
+		font-weight: 500;
+		/* Light */
+		margin-bottom: 10px;
+	}
+
+	button {
+		font-family: "Itim";
+		font-weight: 500;
+		/* Light */
+		background-color: #e63e3e;
+		color: white;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	button:hover {
+		background-color: #45a049;
+	}
+</style>
+
 <body style="background-color:#f4ecf7">
+	<div class="container">
+		<Center>
+			<img src="SilverWolfFix.png" alt="Example Imagle" style="width: 300px; height: auto;">
+			<h1>What's up!!! 👋🏼</h1><br>
+			<h2>📍 กระผม นายอดิฉัตร ลี้เจริญผล</h2>
+			<h2>ชื่อเล่น เฮต // Head and Shoulder</h2>
+			<br>
+			<h2>งานอดิเรก</h2> 
+			<h2>เล่มเกม, อ่านนิยาย, อ่านการ์ตูน, แปลนิยาย ไม่ก็ตัดคลิปในยามว่าง</h2>
+			<br>
+			<h2>ทักษะด้านภาษาของกระผม</h2>
+			
+			<h3>ภาษาไทย = อ่านออก เขียนได้ พูดดี สามารถสื่อสารได้อย่างเป็นธรรมชาติ</h3>
+			<h3>ภาษาอังกฤษ = อ่านออกเขียนได้ในระดับค่อนข้างดี แต่ทักษะการฟังและพูด อยู่ในเกณฑ์ไม่น่าพึงพอใจสักเท่าไร</h3>
+			<h3>ภาษาญี่ปุ่น = ฟังออกแปลได้ในระดับนึง แต่เขียนอ่านไม่ได้ </h3>
+			<h3>ภาษารัสเซีย = สามารถท่องตัวอักษรได้จำขึ้นใจ อ่าน, เขียนเคยได้ แต่ปัจจุบันลืมจนสิ้น</h3>
 
-	<img src= "SilverWolfFix.png" alt="Example Imagle" style="width: 300px; height: auto;">
-	<h1>What's up!!! 👋🏼</h1>
-	<h2>📍 My Name is Adichat Leecharoenphol</h2>
-	<h3>Nickname Hred _If it's easy to remember => Head and shoulders</h3>
-	<pGraduated from ISA (Islamsriayutthaya foundation school)</p>
-	<p>Play Games, Read Novel/Cartoon and Edit Clip is My Hobby</p>
-	<p>Now I Studying Rajamangala University of Technology Suvarnabhumi</p>
+			<h3>ปัจจุบันกระผมเป็นนักศึกษาอยู่ที่ มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ (หันตรา)</h3>
+			<br>
+			<h2>🎫 ภาพเสมือนของตัวกระผม 🎫</h2>
+			<!-- <img src="Head and Shoulders.jpg" alt="Example Imagle" style="width: 300px; height: auto;" > -->
 
-	<h2>🎫 Your Future Boyfriend 🎫</h2>
-	<img src= "Head and Shoulders.jpg" alt="Example Imagle" style="width: 300px; height: auto;">
-	
-	<p>
-	<img src= "FB Icon.png" alt="Example Imagle" style="width: 50px; height: auto;">
-	 <a href="https://www.facebook.com/Adichat.Leecharoenphol/" target="_blank">
-	  <button>Click Here to visit Facabook</button>
-	 </a>
-	 </p>	
-	
+			<img src="Head and Shoulders.jpg" alt="Me" class="profile-pic">
+			<p>
+			<img src="FB Icon.png" alt="Example Imagle" style="width: 50px; height: auto;">
+
+			<p><a href="https://www.facebook.com/Adichat.Leecharoenphol/" target="_blank"></p>
+			<button>Click Here to visit Facabook</button>
+			</a>
+			</p>
+			<h3>ประวัติการศึกษา</h3>
+
+			<table border="1" cellpadding="10" cellspacing="0"
+				style="width : 100%; border-collapse: collapse; text-align: left;">
+				<thead>
+					<tr style="background-color: #f2f3f4; text-align: center;">
+						<th style="text-align: center;">ปีการศึกษา</th>
+						<th style="text-align: center;">สถานศึกษา</th>
+						<th style="text-align: center">ระดับชั้น</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="text-align: center;">2000-2000</td>
+						<td>โรงเรียนบ้านชะไวชวิตวิทยาคาร</td>
+						<td>ระดับชั้นประถม 1-6</td>
+					</tr>
+					<tr>
+						<td style="text-align: center;">2000-2000</td>
+						<td>โรงเรียนอิสลามศรีอยุธยามูลนิธิ</td>
+						<td>ระดับชั้นมัธยมต้น 1-3</td>
+					</tr>
+					<tr>
+						<td style="text-align: center;">2000-2000</td>
+						<td>โรงเรียนอิสลามศรีอยุธยามูลนิธิ</td>
+						<td>ระดับชั้นมัธยมปลาย 4-6</td>
+					</tr>
+				</tbody>
+		</Center>
+	</div>
 </body>
-</html>	
+
+</html>
